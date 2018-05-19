@@ -1,36 +1,6 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/Faridhakim2713/FP_12/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Faridhakim2713/FP_12/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## FP_12
+Website ini merupakan web untuk menjual mobil dalam suatu dealer mobil, mobil yang dijual diweb ini tersedia berbagai merk mobil, tipe, dan tahun mobil. Dalam web ini akan dijelaskan mulai dari kondisi mobil, foto mobil, harga mobil, serta lokasi mobil yang dijual. Pada pembuatan website ini menggunakan bahasa pemrogaman HTML5 dan style CSS sehingga tampilan website lebih menarik, framework yang digunakan dalam website ini adalah angular JS, dan JQuery sebagai library JavaScript untuk memudahkan penyusunan file html . Penulisan ini menggunakan metode penulisan sebagai berikut : identifikasi, analis, perancangan, pembuatan desain website dan pembuatan web/implementasi. Dengan website ini pengguna dapat mencari mobil impian mobil dan membeli mobil dengan mudah.
+Kata Kunci : website, menjual mobil.
 
 ### Support or Contact
 
