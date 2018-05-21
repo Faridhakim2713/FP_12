@@ -1,0 +1,34 @@
+.header1{
+	/*position: relative;*/
+	border-bottom: 80px solid green;
+	border-right: 80px solid transparent;
+	width: 50%;
+	float: left;
+	background:#555;
+}
+.header2{
+	/*position: relative;*/
+	border-bottom: 80px solid green;
+	border-left: 80px solid transparent;
+	width: 50%;
+	float: right
+;	background:#555;
+}
+.logo{
+	position: absolute;
+	right: 640px;
+	height: 80px;
+	width: 80px;
+	border-radius: 80px;
+}
+.menu{
+	position: absolute;
+}
+.iframe{
+	border: 0px;
+	min-height: auto;
+	width: 100%;
+	padding: 5px;
+}
+.content{background:#ddd; min-height:600px;}
+.footer{background:#333; padding:10px; color:#ccc;}
