@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lokasi Dealer</title>
+<link rel="stylesheet" type="text/css" href="../FP_12/assets/css/home.css">
+<link rel="stylesheet" type="text/css" href="../FP_12/assets/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="../FP_12/assets/css/w3school.css">
+<div class="container-fluid"
+<body style="background-color: #ddd">
+	<div style="width: 100%; height: 100px; background-color: lightblue">
+        <div class="row">
+			
+            <a href="index.html" class="col-auto btn btn-dark" style="margin-top: 60px; margin-left: 100px;">MENU</a>
+          	<a href="maps.html" class="col-auto btn btn-dark" style="margin-top: 60px; margin-left: 10px;">LOKASI</a>
+        </div>
+    </div>
+<h1 align="center">LOKASI DEALER KAMI</h1>
+		<div class="container w3-animate-opacity">
+			<div class="row">
+				<div class="col-6">
+					<p>PROVINSI</p>
+					<div class="isi" style="color: white;">DAERAH ISTIMEWA YOGYAKARTA</div>
+					<br>
+					<p>CABANG</p>
+					<div class="isi" style="color: white;"></div>
+				</div>
+				<div class="col-6">
+					<div id="googleMap" style="width:500px;height:500px;" ></div>
+					<script>
+					function myMap() {
+					var mapProp= {center:new google.maps.LatLng(-7.646385, 110.974352),zoom:18,};
+					var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);}
+					</script>
+					<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXz1qQkHA07HVlmNmH__GwdbdDM-qjv0M&callback=myMap"></script>
+				</div>
+			</div>
+		</div>
+	</dv>		
+<div style="background:#333; padding:10px; color:#ccc;">
+    <div class="container">
+        &copy; 2018. Designed by Kelompok 12
+    </div>
+</div>
+	
+</body>
+</html>

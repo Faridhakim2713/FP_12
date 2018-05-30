@@ -11,8 +11,8 @@
 	border-bottom: 80px solid green;
 	border-left: 80px solid transparent;
 	width: 50%;
-	float: right
-;	background:#555;
+	float: right;
+	background:#555;
 }
 .logo{
 	position: absolute;
@@ -22,6 +22,8 @@
 	border-radius: 80px;
 }
 .menu{
+	padding-top: 40px;
+	
 	position: absolute;
 }
 .iframe{
@@ -30,5 +32,20 @@
 	width: 100%;
 	padding: 5px;
 }
+.slideshow{
+	border: 0px;
+	min-height: 300px;
+	width: 100%;
+	background-color: #ddd;
+}
+.isi{
+	padding: 10px;
+	height: 40px;
+	width: 500px;
+	border-radius: 10px;
+	background-color: #555;
+}
+
+
 .content{background:#ddd; min-height:600px;}
 .footer{background:#333; padding:10px; color:#ccc;}
