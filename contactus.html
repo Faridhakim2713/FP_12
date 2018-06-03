@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOGIN MEMBER</title>
+    <title>CONTACT US</title>
 <link rel="stylesheet" type="text/css" href="../FP_12/assets/css/bootstrap.min.css">
 <script type="text/javascript" src="../FP_12/assets/angular/angular.min.js"></script>
 
@@ -25,7 +25,7 @@
 
 
 <!-- //Content// -->
-<h2 align="center">DAFTAR MEMBER</h2><br>
+<h2 align="center">HUBUNGI KAMI MELALUI FORM INI</h2><br>
 <form class="container" style="min-height: 400px; border: none; width: 500px;" ng-app="myApp" ng-controller="validasi" name="myForm" novalidate>
     <div style="align-items: center;">
         <h6>NAMA LENGKAP
@@ -56,19 +56,20 @@
              </span>
         </h6>
         <input type="text" name="alamat" ng-model="alamat" required style="border-radius: 5px; width: 400px;"></input><br><br>
+        <textarea name="comment" rows="5" cols="40" style="border-radius: 10px;" ng-model="comment"></textarea><br><br><br>
     </div>
 
-        <button type="button" class="btn btn-primary" ng-click="Alert()">DAFTAR</button>
+        <button type="button" class="btn btn-primary" ng-click="Alert()">KIRIM</button>
 </form>
   <script>
         var app = angular.module('myApp',[]);
         app.controller('validasi', function ($scope, $window) {
             $scope.Alert = function () {
-               if (typeof ($scope.nama) == "undefined" || $scope.nama == "") {
-                  $window.alert("PERIKSA KEMBALI DATA ANDA !!");
+               if (typeof ($scope.comment) == "undefined" || $scope.comment == "") {
+                  $window.alert("PERIKSA KEMBALI DATA DAN PESAN ANDA !!");
                     return;
                }
-                $window.alert("TERIMAKASIH" + "\n\Nama : " + $scope.nama +  "\n\Telp : " + $scope.tlp + "\n\Email : " + $scope.email + "\n\Alamat : " + $scope.alamat + "\n\Input anda success !!");
+                $window.alert("PESAN TERKIRIM");
               
             }
         });
