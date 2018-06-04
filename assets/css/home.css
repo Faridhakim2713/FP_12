@@ -1,3 +1,21 @@
+		.search {
+			padding:8px 15px;
+			background: white;
+			border:0px solid #dbdbdb;
+		}
+		.button {
+			position:relative;
+			padding:6px 15px;
+			left:-8px;
+			border:2px solid #53bd84;
+			background-color:#53bd84;
+			color:#fafafa;
+		}
+		.button:hover  {
+			background-color:#fafafa;
+			color:#207cca;
+		}
+		
 .header1{
 	/*position: relative;*/
 	border-bottom: 80px solid green;
